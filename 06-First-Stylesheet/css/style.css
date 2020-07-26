@@ -1,0 +1,15 @@
+/* SYNTAX:
+ * selector/element {
+	 property name: property value;
+ }
+ * 
+ */
+
+h1 {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+a{
+	color: red;
+	text-decoration: none;
+}
