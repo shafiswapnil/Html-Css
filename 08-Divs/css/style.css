@@ -1,7 +1,8 @@
-h1 {
+body {
 	font-family: sans-serif;
 }
 
-p {
-	font-family: sans-serif;
+div{
+	width: 500px;
+	margin: auto;
 }
