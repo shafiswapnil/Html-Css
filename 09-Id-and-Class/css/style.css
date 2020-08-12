@@ -1,0 +1,12 @@
+body {
+	font-family: sans-serif;
+}
+
+.container {
+	margin: auto;
+	width: 80%;
+}
+
+.selected {
+	color: red;
+}
