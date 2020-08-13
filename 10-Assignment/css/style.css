@@ -9,11 +9,7 @@ body {
 }
 
 blockquote {
-	margin: 0;
-}
-
-blockquote p {
+	margin-left: 0;
 	text-align: center;
-	padding: 15px;
 	border: 1px solid white;
 }
