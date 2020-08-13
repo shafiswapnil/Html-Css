@@ -1,0 +1,19 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #e3e3e3;
+}
+
+.container {
+	margin: auto;
+	width: 50%;
+}
+
+blockquote {
+	margin: 0;
+}
+
+blockquote p {
+	text-align: center;
+	padding: 15px;
+	border: 1px solid white;
+}
