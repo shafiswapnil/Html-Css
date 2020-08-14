@@ -9,6 +9,7 @@ body {
 
 	background: yellow;
 
+	/* THIS TRIGGERS THE BROWSER TO CONTAIN EVERYTHING IN .wrap */
 	overflow: hidden;
 }
 
@@ -45,5 +46,6 @@ aside ul {
 }
 
 footer {
-	/* clear: both; */
+	/* THIS CLEARS ANY TYPE OF FLOATED CONTENT ABOVE IT */
+	clear: both;
 }
