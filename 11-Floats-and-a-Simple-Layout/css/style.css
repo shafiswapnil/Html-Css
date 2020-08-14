@@ -1,3 +1,49 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
 }
+
+.wrap {
+	min-width: 600px;
+	width: 90%;
+	margin: auto;
+
+	background: yellow;
+
+	overflow: hidden;
+}
+
+main, aside {
+	/* DO NOT HARD CODE THE VALUE */
+	height: 300px;
+}
+
+main {
+	background: red;
+
+	/* float: left [ATTENTION] */
+	float: left;
+
+	width: 70%;
+}
+
+aside {
+	background: greenyellow;
+
+	/* float: left [ATTENTION] */
+	float: left;
+	
+	/* [ATTENTION AGAIN] */
+	width: 30%;
+}
+
+aside ul {
+	/* USING NONE AS LIST STYLE MAKES THE LIST WITHOUT BULLETS */
+	list-style: none;
+	
+	/* ul LISTS TAKES PADDING TO INDENT THE LISTS */
+	padding-left: 0;
+}
+
+footer {
+	/* clear: both; */
+}
