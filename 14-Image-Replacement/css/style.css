@@ -1,0 +1,12 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+	background: url(../img/logo_transparent.png) no-repeat;
+	/* display: inline; */
+	text-indent: -9999px;
+	width: 128px;
+	height: 56px;
+	margin: 0;
+}
