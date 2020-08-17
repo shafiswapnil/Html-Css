@@ -1,0 +1,28 @@
+body {
+	font-family: sans-serif;
+}
+
+form ul {
+	padding-left: 0;
+}
+
+form li {
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+label {
+	/* display: inline; */
+
+	display: block;
+	color: #292929;
+	margin-bottom: 10px;
+
+	cursor: pointer;
+	/* Set the cursor as pointer for label element, it'll give some feedback that it's clickable  */
+}
+
+textarea {
+	width: 400px;
+	height: 200px;
+}

@@ -7,6 +7,48 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	
+	<h1>Introduction to Forms</h1>
+	<form action="contact.php" method="GET">
+		<ul>
+			<li>
+				<label for="name">Enter Your Name:</label>
+				<input type="text" id="name" name="name">
+			</li>
+
+			<li>
+				<label for="comments">Your Comments:</label>
+				<textarea name="comments" id="comments"></textarea>
+				<!-- Don't use rows and cols attribute on textarea in markup. -->
+			</li>
+
+			<li>
+				<label for="css">Do you like CSS?</label>
+				<input type="checkbox" name="css" id="css">
+				<!--
+					BE CAREFUL WHEN USING CHECKBOX INPUTS
+					-----------------------------------------------------------
+					If the checkbox left empty when submitting the form, it wont post 
+					or appear on the query string. So be careful!!!
+				-->
+			</li>
+
+			<li>
+				<label for="language">Your Favourite Language:</label>
+				<input type="radio" name="language" id="language" value="CSS"> CSS
+				<input type="radio" name="language" id="language" value="HTML"> HTML
+				<input type="radio" name="language" id="language" value="JavaScript"> JavaScript
+				<input type="radio" name="language" id="language" value="PHP"> PHP
+				<!--
+					BE CAREFUL WHEN USING RADIO INPUTS
+					-----------------------------------------------------------
+					If the radio button left empty when submitting the form, it wont post 
+					or appear on the query string. So be careful!!!
+				-->
+			</li>
+			
+			<li><input type="submit" value="Submit"></li>
+		</ul>
+		
+	</form>
 </body>
 </html>
