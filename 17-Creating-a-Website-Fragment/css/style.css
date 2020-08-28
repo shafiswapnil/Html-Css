@@ -1,11 +1,39 @@
 body {
-	width: 600px;
-	margin: 20px auto;
-
-	
+	font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Notes:
- margin: top left bottom right;
- margin: top left bottom; here the right value will be same for left
-*/
+.container {
+	width: 600px;
+	margin: 20px auto;
+}
+
+a {
+	color: #276056;
+}
+
+article h2 {
+	font-size: 39px;
+	line-height: 43px;
+}
+
+article img {
+	float: left;
+	margin-right: 30px;
+}
+
+.preview {
+	float: right;
+	width: 370px;
+}
+
+.meta a {
+	font-style: italic;
+}
+
+.meta li {
+	display: inline;
+}
+
+ul.meta {
+	padding-left: 0;
+}
