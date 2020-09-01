@@ -6,4 +6,6 @@ Important Notes:
 
 Pseudo classes of CSS
  - `:first-of-type`
+ - `:last-of-type`
+ - `:last-child`
  - `:nth-child()`
